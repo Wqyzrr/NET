@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .about {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .about-images {
+      flex: 1;
+      padding-right: 40px;
+    }
+
+    .about-images img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .about-text {
+      flex: 2;
+      padding: 20px;
+      background-color: #111;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .about-text h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #f39c12;
+    }
+
+    .about-text p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  </style>
+  <title>About Us - WqyzrrNET</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">WqyzrrNET</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="#" class="active">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main-content hidden">
+
+  <section class="about">
+    <div class="about-images">
+      <img src="image1.png" alt="Internet Cafe Image 1">
+    </div>
+    <div class="about-text">
+      <h2>The Next Level Game Center</h2>
+      <p>WqyzrrNET adalah game center yang terletak di kota Depok. Kami mengutamakan fitur dan kenyamanan untuk para gamer. Spesifikasi komputer kami mampu untuk memainkan semua game terkini dengan lancar seperti PUBG, Overwatch, GTA V, Ring of Elysium dan banyak lagi. Sebagai contoh Dota 2 yang sangat lancar dengan setingan 'rata kanan' atau ultra. Monitor yang kami gunakan 24 inch 1080p (full hd) untuk tampilan gambar yang maksimal dan nyaman di mata. Untuk pengolah grafis (VGA card) kami menggunakan ATI Radeon RX560 4GB DDR5 yang merupakan VGA card terbaru dengan standart e-sport internasional untuk para gamer yang ingin serius mengikuti kejuaraan-kejuaraan game. Ditambah lagi memori (RAM) yang kami gunakan 8GB DDR4 dapat dipastikan semua game favoritmu akan berjalan lancar. So tunggu apalagi yuk gabung di WqyzrrNet!</p>
+    </div>
+  </section>
+  </div>
+  <footer>
+    <p>&copy; 2023 WqyzrrNET. All rights reserved.</p>
+  </footer>
+  <script>
+    // Unhide the main content after the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      const mainContent = document.querySelector('.main-content');
+      mainContent.classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>
+
+<nav>
+  <div class="logo">WqyzrrNET</div>
+  <ul class="nav-links nav-links-hover"> <!-- Add the class here -->
+    <!-- ... your navigation links ... -->
+  </ul>
+</nav>

@@ -1,0 +1,426 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header and navigation */
+header {
+    background-color: #333;
+    color: #f39c12; /* Change the text color to white */
+    padding: 10px 0;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; /* Set the default text color to white */
+  }
+
+.nav-links a.active {
+    color: #f39c12; /* Set the active tab text color to orange */
+    border-bottom: 2px solid #f39c12;
+  }
+/* Highlight active tab */
+.nav-links a.active:hover {
+    color: #f39c12;
+    border-bottom: 2px solid #f39c12;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('path-to-your-gaming-image.jpg'); /* Replace with the path to your gaming image */
+    background-size: cover;
+    background-position: center
+    color: #ffffff; /* Set text color to white */
+    text-align: center;
+    padding: 175px 0; /* Increase padding for a larger hero section */
+    background-color: #000000; /* Set a dark background color */
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #f39c12; /* Set accent color */
+  }
+  
+  .hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #ffffff; /* Set text color to white */
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #f39c12;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e67e22;
+  }
+  
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* Styling for the "About Us" page content */
+.nav-links a {
+    text-decoration: none;
+    color: white; /* Set the default text color to white */
+  }
+.nav-links a.active[href="about.html"] {
+    color: #f39c12; /* Highlight color for active tab */
+    border-bottom: 2px solid #f39c12;
+}
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 2;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 10px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #f39c12
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #eaeaea;
+}
+
+/* Styling for the pricing section */
+.pricing {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 70px;
+    background-image: url('path-to-your-pricing-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .pricing-info {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(33, 33, 33, 0.7); /* Dark background color with transparency */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  .pricing-list {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-item {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(33, 33, 33, 0.7); /* Dark background color with transparency */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 0 10px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: white;
+  }
+  
+  
+  .pricing-text {
+    background-color: #111;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .pricing-info h1, .pricing-info p {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 0 20px;
+  }
+  
+  .pricing-info h1 {
+    font-size: 2rem;
+  }
+  
+  .pricing-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.8;
+  }
+  
+  .new-tag {
+    background-color: #f39c12;
+    color: white;
+    padding: 3px 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left:-40px;
+    transform: rotate(-45deg);
+  }
+  /* Styling for pricing box content */
+  .pricing-item h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .pricing-item p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 10 px 0;
+    opacity: 0.8;
+    line-height: 1.4;
+  }
+
+  .pricing-item ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .pricing-item li {
+    font-size: 0.9rem;
+    padding: 5px 0;
+  }
+  
+  /* Styling for the pricing header */
+  .pricing-header {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 25%; /* 25% of the page width on the left */
+  }
+  
+  .pricing-title {
+    font-size: 2rem;
+    color: #f39c12; /* Orange color */
+  }
+  
+  .pricing-options {
+    font-size: 1.2rem;
+    color: #eaeaea; /* Light gray color */
+    margin-top: 10px;
+  }
+  
+  .pricing-description {
+    font-size: 1.1rem;
+    color: #eaeaea; /* Light gray color */
+    text-align: left;
+  }
+  
+/* Styling for the "Pricing" page */
+.nav-links a {
+    text-decoration: none;
+    color: white; /* Set the default text color to white */
+  }
+.nav-links a.active[href="pricing.html"] {
+    color: #f39c12; /* Highlight color for active tab */
+    border-bottom: 2px solid #f39c12;
+}
+
+body {
+    background-color: #111;
+}
+
+/* Styling for the pricing info */
+.pricing-info {
+  flex: 1;
+  padding: 1px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.pricing-options {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.pricing-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+/* Styling for the pricing list */
+.pricing-list {
+  color: white;
+  text-align: center;
+}
+
+.pricing-list h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.pricing-list p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+
+/* Styling for the "Services" page content */
+.nav-links a {
+    text-decoration: none;
+    color: white; /* Set the default text color to white */
+  }
+.nav-links a.active[href="services.html"] {
+    color: #f39c12; /* Highlight color for active tab */
+    border-bottom: 2px solid #f39c12;
+}
+
+.services {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 17px;
+    background-image: url('cyberpunk.jpg'); /* Add this line to set the background image */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set the text color to white for better visibility */
+}
+
+.services-title h1 {
+    font-size: 2rem;
+}
+
+.services-title p {
+    font-size: 1.2rem;
+}
+
+.specs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.spec-box {
+  flex: 0 0 calc(24.2% - 15px);
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.7); /* Change the background color to transparent black */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 0 20px;
+  color: white;
+  text-align: center;
+}
+
+.spec-box img {
+    max-width: 50%;
+    margin: 0 auto 10px;
+}
+
+.spec-box h2 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.spec-box p {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+/* Apply transitions to the main content area */
+.main-content {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Set initial opacity to 0 */
+.main-content.hidden {
+  opacity: 0;
+}
+
+/* Add a smooth hover animation to navigation links */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease; /* Add transition for color change */
+}
+
+.nav-links a:hover {
+  color: #f39c12; /* Change the color on hover */
+}

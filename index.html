@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>WqyzrrNET</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">WqyzrrNET</div>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main-content hidden">
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Selamat Datang di WqyzrrNET</h1>
+      <p>The Next Level Game Center</p>
+      <a href="pricing.html" class="cta-button">Get Started</a>
+    </div>
+  </section>
+  </div>
+  <!-- More sections can be added here, such as Services, Pricing, About Us, Contact, etc. -->
+
+  <footer>
+    <p>&copy; 2023 WqyzrrNET. All rights reserved.</p>
+  </footer>
+  <script>
+    // Unhide the main content after the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      const mainContent = document.querySelector('.main-content');
+      mainContent.classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>
+
+<nav>
+  <div class="logo">WqyzrrNET</div>
+  <ul class="nav-links nav-links-hover"> <!-- Add the class here -->
+    <!-- ... your navigation links ... -->
+  </ul>
+</nav>
